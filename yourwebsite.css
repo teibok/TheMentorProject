@@ -58,7 +58,6 @@ h1 {
 h3 {
   text-align: center;
   background-color: #a80606;
-  padding:0 0 1rem 0;
 }
 
 #index {
@@ -164,5 +163,9 @@ h3 {
 
 .intern_inner a {
     color:black;
+}
+
+h3 {
+  padding-bottom:200%;
 }
 }
