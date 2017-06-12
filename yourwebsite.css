@@ -75,11 +75,12 @@ h3 {
 }
 
 .intern_inner{
-  font-size: 2rem;
+  font-size: 170%;
   color: #50d3c6;
+  text-align: justify;
+  padding:0 5%;
   background:url("https://images.pexels.com/photos/2324/skyline-buildings-new-york-skyscrapers.jpg?w=940&h=650&auto=compress&cs=tinysrgb") no-repeat center center;
   background-size:cover;
-  height:rem;
 }
 
 .intern_inner a {
