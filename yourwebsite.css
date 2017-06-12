@@ -64,19 +64,17 @@ h3 {
 #index {
   background: url("photo.jpg") no-repeat center center;
   background-size:contain;
-  ba
 }
 
-.intern{
-  font-size:170%;
-  color:#50d3c6;
+.intern {
+  font-size: 170%;
+  color: #50d3c6;
   text-align: justify;
   padding:0 5%;
 }
 
 .intern_inner{
   font-size: 170%;
-  color: #50d3c6;
   text-align: justify;
   padding:0 5%;
   background:url("https://images.pexels.com/photos/2324/skyline-buildings-new-york-skyscrapers.jpg?w=940&h=650&auto=compress&cs=tinysrgb") no-repeat center center;
@@ -158,12 +156,13 @@ h3 {
 @media only screen and (max-device-width:1600px)
 {
 
-  .intern{
-    font-size: 10rem;
+.intern{
+    font-size: 2rem;
     color:#fff;
-  }
+    margin-bottom:1rem;
+}
 
-  .intern_inner a {
+.intern_inner a {
     color:black;
-  }
+}
 }
