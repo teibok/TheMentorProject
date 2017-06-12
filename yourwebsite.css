@@ -68,7 +68,7 @@ h3 {
 }
 
 .intern{
-  font-size: 2rem;
+  font-size:170%;
   color:#50d3c6;
   text-align: justify;
   padding:0 5%;
@@ -152,4 +152,13 @@ h3 {
 
 .uppernavbar img {
   padding-right:36rem;/*Adjust this padding to right align the uppernavbar*/
+}
+
+@media only screen and (max-device-width:1600px)
+{
+
+  .intern{
+    font-size: 2rem;
+    color:#fff;
+  }
 }
