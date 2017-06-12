@@ -8,9 +8,70 @@ a {
   text-decoration: none;
 }
 
+body {
+  background-color:#a80606;
+}
+
+.footernavbar {
+  width:100%;
+  height:20rem;
+  margin-top:2rem;
+  background-color:#870606;
+}
+
+.footernavbar a {
+  color:black;
+  display: block;
+  height:3rem;
+  width:10rem;
+  margin-bottom:1rem;
+  background-color:#f25107;
+  text-align:center;
+  line-height:3rem;
+}
+
+.footernavbar a:hover {
+  color:#0b2ea3;
+  background-color:#dcdfe8;
+}
+
+.footernavbar img {
+  padding-right:25rem;/*Adjust this padding to right align the uppernavbar*/
+}
+
+.footernavbar > ul {
+  width:10rem;
+  height:auto;
+  display: block;
+  float:left;
+  font-size:1.25rem;
+  margin-right:3rem;
+  opacity:0.8;
+}
+
+h1 {
+  text-align: center;
+  padding-top:2rem;
+  background-color: #a80606;
+}
+
+h3 {
+  text-align: center;
+  background-color: #a80606;
+  padding:0 0 1rem 0;
+}
+
+#index {
+  background: url("photo.jpg") no-repeat center center;
+  background-size:contain;
+  ba
+}
+
 .intern{
   font-size: 2rem;
   color:#50d3c6;
+  text-align: justify;
+  padding:0 5%;
 }
 
 .intern_inner{
@@ -31,45 +92,19 @@ a {
   margin:0.25rem;
 }
 
-#the_pitch {
-  display:inline-block;
-  text-align:center;
-  font-size:3rem;
-}
-
 #sub_pitch {
   font-size:1rem;
   display:inline-block;
   text-align:center;
 }
 
-.uppernavbar a {
-  color:#7cf4e8;
-}
-
-.footernavbar a {
-  color:black;
-}
-
-#index {
-  background: url("https://images.pexels.com/photos/107958/pexels-photo-107958.jpeg?w=940&h=650&auto=compress&cs=tinysrgb") no-repeat center center;
-  background-size: contain;
-}
-
-body {
-  background-color:#a80606;
-}
-
-h1 {
-  text-align: center;
-  padding-top:2rem;
-  background-color: #a80606;
-}
-
-h3 {
-  text-align: center;
-  background-color: #a80606;
-  padding:0 0 1rem 0;
+#the_pitch {
+  font-size:3rem;
+  display: block;
+  text-align:center;
+  line-height:100%;/*remove this later pleae*/
+  height:60rem;
+  width:auto;
 }
 
 .uppernavbar {
@@ -77,6 +112,16 @@ h3 {
   width:auto;
 }
 
+.uppernavbar a {
+  color:#7cf4e8;
+  display: block;
+  width:10rem;
+  height:3rem;
+  text-align:center;
+  line-height:3rem;
+  margin-bottom:0.5rem;
+  padding:0.5 1rem 1rem 1rem;
+}
 .uppernavbar > ul {
   display: block;
   float:left;
@@ -104,60 +149,7 @@ h3 {
   background-color:#38ba2c;
 }
 
-.uppernavbar a {
-  display: block;
-  width:10rem;
-  height:3rem;
-  text-align:center;
-  line-height:3rem;
-  margin-bottom:0.5rem;
-  padding:0.5 1rem 1rem 1rem;
-}
 
 .uppernavbar img {
   padding-right:36rem;/*Adjust this padding to right align the uppernavbar*/
-}
-
-#the_pitch {
-  display: block;
-  text-align:center;
-  line-height:100%;/*remove this later pleae*/
-  height:60rem;
-  width:auto;
-}
-
-.footernavbar {
-  width:100%;
-  height:20rem;
-  margin-top:2rem;
-  background-color:#870606;
-}
-
-.footernavbar > ul {
-  width:10rem;
-  height:auto;
-  display: block;
-  float:left;
-  font-size:1.25rem;
-  margin-right:3rem;
-  opacity:0.8;
-}
-
-.footernavbar a {
-  display: block;
-  height:3rem;
-  width:10rem;
-  margin-bottom:1rem;
-  background-color:#f25107;
-  text-align:center;
-  line-height:3rem;
-}
-
-.footernavbar img {
-  padding-right:25rem;/*Adjust this padding to right align the uppernavbar*/
-}
-
-.footernavbar a:hover {
-  color:#0b2ea3;
-  background-color:#dcdfe8;
 }
