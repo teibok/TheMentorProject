@@ -8,12 +8,20 @@
   </head>
 
   <body id="index">
-    <h1>The NetWork Project</h1>
-    <h3>Bringing you closer to your goal</h3>
-    <nav class="uppernavbar"><!-- Upper navbar-->
+    <p class="heading">The NetWork Project</p>
+    <p class="heading3">Bringing you closer to your goal</p>
+
+    <!--Add a scrollbar of inspiring thoughts and quotes here-->
+    <div id="navbarMobile">
+      <img id="logo" src="artist.png" type="image/png">
+      <img id="bar" src="bar.png" type="image/png">
+    </div>
+
+    <!-- Upper navbar-->
+    <nav class="uppernavbar">
 
       <ul>
-        <img id="logo" src="artist.png" type="image/png">
+        <img id="logoDesktop" src="artist.png" type="image/png">
       </ul>
 
       <ul id="homepage">
@@ -21,7 +29,7 @@
       </ul>
 
       <ul id="why_network">
-      <li><a href="why_network.html">Why Network?</a></li>
+      <li><a href="why_network.html">WhyNetwork?</a></li>
       </ul>
 
       <ul id="otherstuff">
@@ -35,7 +43,7 @@
         </li>
       </ul>
 
-      <ul id="contactus">
+      <ul id="contactUs">
         <li><a href="#">Contact</a>
         <ul>
           <li><a href="https://www.google.com/gmail/" target="_blank">Email</a></li>
@@ -44,14 +52,30 @@
         </ul>
         </li>
       </ul>
+
+      <ul id="register">
+      <li><a href="#">Log in/Register</a></li>
+      </ul>
     </nav><!-- end of upper navbar-->
+
     <br>
     <div id="the_pitch"><p>How can <b>we</b> help <b>you</b> in your endeavours, you ask?</p>
       <p id="sub_pitch">Click on the links and we'll show you</p>
     </div>
 
-
-    <!--Put the footer here, containing links to social media-->
+<!--the footer here, containing links to social media-->
+    <div id="socialLinksDesktop">
+      <a href="https://www.google.com/gmail/" target="_blank"><img src="gmail (1).png"></a>
+      <a href="https://web.whatsapp.com/" target="_blank"><img src="whatsapp (2).png"></a>
+      <a href="https://www.facebook.com/Teibok.Chyne" target="_blank"><img src="facebook-logo (2).png"></a>
+    </div>
+<!--end of socialLinksDesktop-->
+<div id="socialLinksMobile">
+  <a href="https://www.google.com/gmail/" target="_blank"><img src="gmail-logo128.png"></a>
+  <a href="https://web.whatsapp.com/" target="_blank"><img src="whatsapp128.png"></a>
+  <a href="https://www.facebook.com/Teibok.Chyne" target="_blank"><img src="facebook-128px.png"></a>
+</div>
+<!--end od socialLinksMobile-->
 
     <div class="footernavbar"><!-- footer navbar-->
 
@@ -88,7 +112,9 @@
         </li>
       </ul>
     </div><!-- end of footernavbar-->
+    <a href="licenses.html" id="license">Licenses for icons:Click to see</a>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="yourwebsite.js"></script>
   </body>
 
 </html>
