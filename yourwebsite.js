@@ -3,7 +3,6 @@ next=2;
 count=$("#scrollbar > a").length;
 
 $(document).ready(function(){
-  console.log(typeof(count));
   $("#bar").on("click",function(){
     $(".uppernavbar").slideToggle(200);
   });
